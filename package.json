@@ -28,6 +28,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.51.2",
     "react-imask": "^7.6.0",
+    "react-lite-youtube-embed": "^2.4.0",
     "react-redux": "^9.1.0",
     "sharp": "^0.33.3",
     "sonner": "^1.4.41",
