@@ -1,7 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 
-import { Youtube } from "../components";
+import { Youtube, Custom } from "../components";
 
 import cs from "../scss/helpers.module.scss";
 
@@ -14,7 +14,8 @@ const Home: React.FC = () => {
     <main>
       <h1 className={cs.srOnly}></h1>
 
-      <Youtube />
+      {/* <Youtube /> */}
+      <Custom />
     </main>
   );
 };

@@ -16,24 +16,13 @@
     "safari 14"
   ],
   "dependencies": {
-    "@hookform/resolvers": "^3.3.4",
-    "@reduxjs/toolkit": "^2.2.3",
     "@svgr/webpack": "^8.1.0",
-    "eslint": "^8.55.0",
-    "next": "14.1.4",
-    "next-auth": "^4.24.7",
+    "next": "^14.2.1",
     "normalize.css": "^8.0.1",
-    "qs": "^6.12.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.51.2",
-    "react-imask": "^7.6.0",
     "react-lite-youtube-embed": "^2.4.0",
-    "react-redux": "^9.1.0",
-    "sharp": "^0.33.3",
-    "sonner": "^1.4.41",
-    "use-immer": "^0.9.0",
-    "zod": "^3.22.4"
+    "react-player": "^2.16.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.1.4",

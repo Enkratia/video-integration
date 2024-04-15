@@ -1,15 +1,6 @@
 import React from "react";
 
-import {
-  //   Header,
-  AuthProvider,
-  StoreProvider,
-  //   Footer,
-
-  //   // **
-  //   ToastLayout,
-  //   ScrollToTop,
-} from "../components";
+import "../components";
 
 import "./globals.scss";
 
@@ -20,17 +11,7 @@ type RootLayoutProps = {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <body>
-        <StoreProvider>
-          <AuthProvider>
-            {/* <ToastLayout /> */}
-            {/* <ScrollToTop /> */}
-            {/* <Header /> */}
-            {children}
-            {/* <Footer /> */}
-          </AuthProvider>
-        </StoreProvider>
-      </body>
+      <body>{children}</body>
     </html>
   );
 };
